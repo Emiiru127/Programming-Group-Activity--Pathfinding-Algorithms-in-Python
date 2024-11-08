@@ -1,24 +1,15 @@
 Group Name: Teletubbies 
 
-Members: 
-
-Austria, Nelson
-
-Baway, Arcelie
-
-Canceran, Emil 
-
-Catalan, Hans 
-
-De Jose, James 
-
-Diarios, Vaneza
-
-Elago, Arniño 
-
-Marasigan, John Aron 
-
-Roa, Cristine Joy
+Members:</br>
+Austria, Nelson</br>
+Baway, Arcelie</br>
+Canceran, Emil </br>
+Catalan, Hans </br>
+De Jose, James </br>
+Diarios, Vaneza</br>
+Elago, Arniño </br>
+Marasigan, John Aron </br>
+Roa, Cristine Joy</br>
 
 
 
@@ -26,11 +17,11 @@ Roa, Cristine Joy
 
 Greedy Best-First Search (GBFS):
 
-GBFS finds the shortest path to a goal node using a heuristic that estimates the distance from the current node to the goal. Uses a priority queue to explore nodes based solely on their heuristic values. It expands the most promising node without considering the cost to reach that node. 
+&nbsp;&nbsp;&nbsp;&nbsp; GBFS finds the shortest path to a goal node using a heuristic that estimates the distance from the current node to the goal. Uses a priority queue to explore nodes based solely on their heuristic values. It expands the most promising node without considering the cost to reach that node. 
 
 A* Search Algorithm:
 
-Finds the shortest path to a goal node but uses both the actual cost to reach the node and a heuristic to estimate the remaining distance. Utilizes a priority queue, maintaining two scores for each node: the cost from the start (g(n)) and the estimated cost to the goal (h(n)). The algorithm explores nodes based on the sum of these two scores.
+&nbsp;&nbsp;&nbsp;&nbsp; Finds the shortest path to a goal node but uses both the actual cost to reach the node and a heuristic to estimate the remaining distance. Utilizes a priority queue, maintaining two scores for each node: the cost from the start (g(n)) and the estimated cost to the goal (h(n)). The algorithm explores nodes based on the sum of these two scores.
 
 
 2.2). Instructions on how to run the code.
@@ -42,7 +33,8 @@ Or Clone the Github repo and Open it in VScode
 2.3). Description of your approach and any challenges faced.
 
 Approach:
-Defined a grid representing open spaces and obstacles, setting the start and goal points. Implemented two pathfinding algorithms: Greedy Best-First Search and A* Search, ensuring each algorithm could explore nodes efficiently while keeping track of the paths and costs. Used a priority queue to manage the nodes to explore, allowing for optimal selections based on the heuristic for GBFS and both cost and heuristic for A*.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Defined a grid representing open spaces and obstacles, setting the start and goal points. Implemented two pathfinding algorithms: Greedy Best-First Search and A* Search, ensuring each algorithm could explore nodes efficiently while keeping track of the paths and costs. Used a priority queue to manage the nodes to explore, allowing for optimal selections based on the heuristic for GBFS and both cost and heuristic for A*.
 
 
 Challenges Faced:
