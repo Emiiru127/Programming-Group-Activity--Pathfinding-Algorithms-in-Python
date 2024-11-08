@@ -1,3 +1,27 @@
+Group Name: Teletubbies 
+
+Members: 
+
+Austria, Nelson
+
+Baway, Arcelie
+
+Canceran, Emil 
+
+Catalan, Hans 
+
+De Jose, James 
+
+Diarios, Vaneza
+
+Elago, Arniño 
+
+Marasigan, John Aron 
+
+Roa, Cristine Joy
+
+
+
 2.1) Overview of the algorithms implemented.
 
 Greedy Best-First Search (GBFS):
